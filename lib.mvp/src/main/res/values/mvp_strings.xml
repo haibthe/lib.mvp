@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">mvp</string>
+
+    <string name="exception_no_connection">Vui lòng kiểm tra kết nối mạng</string>
+    <string name="error_message" formatted="true"><![CDATA[%s.<br><b>Chạm để thử lại.</b>]]></string>
+    <string name="loading_message">Vui lòng đợi trong giây lát</string>
+
+    <string name="error_default">Lỗi Hệ Thống</string>
+</resources>
