@@ -1,6 +1,6 @@
 package com.hb.lib.mvp.base
 
-import android.support.annotation.NonNull
+import androidx.annotation.NonNull
 
 interface MvpContract {
     interface View {

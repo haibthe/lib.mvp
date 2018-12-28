@@ -2,10 +2,10 @@ package com.hb.lib.mvp.lce.sr
 
 import android.content.Context
 import android.os.Bundle
-import android.support.v4.widget.SwipeRefreshLayout
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import android.text.TextUtils
 import com.hb.lib.mvp.R
 import com.hb.lib.mvp.lce.MvpLceActivity
@@ -44,7 +44,10 @@ abstract class MvpLceSRActivity<M, P : MvpLceContract.Presenter>
         }
 
         if (addItemDecoration) {
-            val itemDecoration = DividerItemDecoration(context, RecyclerView.VERTICAL)
+            val itemDecoration = DividerItemDecoration(
+                context,
+                RecyclerView.VERTICAL
+            )
             mRecyclerView.addItemDecoration(itemDecoration)
         }
     }

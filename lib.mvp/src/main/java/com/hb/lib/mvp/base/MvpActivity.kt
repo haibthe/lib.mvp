@@ -2,9 +2,9 @@ package com.hb.lib.mvp.base
 
 import android.app.Activity
 import android.os.Bundle
-import android.support.annotation.LayoutRes
-import android.support.annotation.NonNull
-import android.support.design.widget.Snackbar
+import androidx.annotation.LayoutRes
+import androidx.annotation.NonNull
+import com.google.android.material.snackbar.Snackbar
 import android.view.View
 import android.widget.Toast
 import dagger.android.support.DaggerAppCompatActivity
